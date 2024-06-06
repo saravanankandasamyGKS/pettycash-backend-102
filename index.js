@@ -6,7 +6,6 @@ import { client } from "./db/db.js";
 import { SigninRouter } from "./routes/login.js";
 import { expenseRouter } from "./routes/expense.js";
 import { IncomeRouter } from "./routes/income.js";
-
 //config for env 
 dotenv.config()
 // server Started 
